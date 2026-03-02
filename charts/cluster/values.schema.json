@@ -2,6 +2,14 @@
     "$schema": "http://json-schema.org/schema#",
     "type": "object",
     "properties": {
+        "extraObjects": {
+          "type": "array",
+          "description": "Список дополнительных объектов Kubernetes для развертывания",
+          "items": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        }
         "backups": {
             "type": "object",
             "properties": {
