@@ -9,7 +9,7 @@
     {
       customType: 'regex',
       managerFilePatterns: [
-        '/charts\\/cloudnative-pg\\/Chart\\.yaml$/',
+        '/charts\\/cluster\\/Chart\\.yaml$/',
       ],
       matchStrings: [
         'appVersion: "(?<currentValue>.*?)"',
