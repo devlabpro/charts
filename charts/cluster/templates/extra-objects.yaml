@@ -7,8 +7,6 @@ metadata:
   {{- with .metadata }}
   {{- toYaml . | nindent 2 }}
   {{- end }}
-  labels:
-    {{- include "mychart.labels" $ | nindent 4 }}
 spec:
   {{- toYaml .spec | nindent 2 }}
 {{- end }}
